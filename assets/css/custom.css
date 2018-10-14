@@ -1,0 +1,169 @@
+@font-face {
+   font-family: 'MyriadProSemibold';
+   src: url('../font/Myriad Pro Semibold.ttf') format('truetype');
+}
+html, body {
+   padding: 0;
+   margin: 0;
+   background: #000;
+   font-family: "MyriadProSemibold";
+}
+/* Slider Styles */
+#parallax {
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   width: 100%;
+   height: 100%;
+}
+#parallax .frame {
+   width: 100%;
+   height: 100%;
+}
+#parallax .frame .slide_element {
+   height: 100%;
+}
+#parallax .frame .slide_element > div {
+   float: left;
+   height: 100%;
+}
+.perspective {
+   -webkit-perspective: 1000px;
+   perspective: 1000px;
+   -webkit-perspective-origin: 50% 50%;
+   perspective-origin: 50% 50%;
+}
+.preserve-3d {
+   -webkit-transform-style: preserve-3d;
+   transform-style: preserve-3d;
+}
+.title {
+   font-size: 36px;
+   font-weight: 300;
+   bottom: 40px;
+   left: 60px;
+   color: rgba(255, 255, 255, 0);
+   text-shadow: 0 0 20px rgba(255, 255, 255, 0);
+   z-index: 40;
+}
+.title.black {
+   color: rgba(0, 0, 0, 0);
+   text-shadow: 0 0 20px rgba(0, 0, 0, 0);
+}
+.parallax {
+   width: 100%;
+   height: 100%;
+   z-index: 10;
+}
+/* Avatar */
+.avatar {
+   transform: scale(0.9);
+}
+svg {
+   position: absolute;
+   overflow: hidden;
+}
+#svga-group-hair-back {
+   -webkit-transform: translateZ(90px);
+   transform: translateZ(90px);
+}
+#svga-group-ears {
+   -webkit-transform: translateZ(30px);
+   transform: translateZ(30px);
+}
+#svga-group-faceshape-single {
+   -webkit-transform: translateZ(40px);
+   transform: translateZ(40px);
+}
+#svga-group-eyes {
+   -webkit-transform: translateZ(70px);
+   transform: translateZ(70px);
+}
+#svga-group-mouth-single {
+   -webkit-transform: translateZ(75px);
+   transform: translateZ(75px);
+}
+#svga-group-nose-single {
+   -webkit-transform: translateZ(85px);
+   transform: translateZ(85px);
+}
+#svga-group-hair-front {
+   -webkit-transform: translateZ(90px);
+   transform: translateZ(90px);
+}
+#header {
+   width: 100%;
+   margin: auto;
+   background-color: white;
+}
+#logo {
+   width: 300px;
+   padding: 10px;
+}
+.testdiv{
+   width: 1423px;
+}
+.half-side {
+   width: 50%;
+   height: 500px;
+   float: left;
+}
+.avatar-side {
+   width: 61%;
+   height: 500px;
+   float: left;
+}
+.avatar-info-side {
+   width: 39%;
+   height: 500px;
+   float: left;
+}
+.person {
+   width: 50%;
+   height: 100%;
+   float: left;
+}
+.personal-info-container {
+   font-size: 24px;
+   margin-top: 100px;
+}
+.info-unit-container {
+   margin-top: 20px;
+}
+.slide {
+   padding-top: 30px;
+}
+.second-slide {
+   padding: 0 16px;
+   padding-top: 30px;
+}
+.slide-button {
+   position: absolute;
+   bottom: 270px;
+   border: solid 1px #7F7F7F;
+   border-radius: 5px;
+   padding: 5px 10px;
+   background-color: rgba(255,255,255,0.2);
+   font-size: 18px;
+}
+.slide-button:hover {
+   cursor: pointer;
+   border-color: #2F2F2F;
+}
+.slide-next {
+   right: 30px;
+}
+.slide-prev {
+   left: 30px;
+}
+.mSButtons {
+   display: none;
+}
+#comment {
+   text-align: center;
+   margin: 0 20px;
+   font-size: 24px;
+   height: 100px;
+}
